@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Ashima277/fastapibackend'
+                git branch: 'main', url: 'https://github.com/Ashima277/fastapibackend'
             }
         }
 
