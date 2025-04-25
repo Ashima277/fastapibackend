@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PROJECT_ID ='python-backend'
+        PROJECT_ID ='python-backend-457816'
         REGION = 'us-central1'
         REPO_NAME = 'python-repo'
         IMAGE = "$REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/fastapi-survey:latest"
