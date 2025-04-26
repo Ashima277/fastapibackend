@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python-container
-        image: us-east1-docker.pkg.dev/survey-application-456213/survey-repo/springboot-app:latest
+        image: us-central1-docker.pkg.dev/python-backend-457816/python-repo/fastapi-survey:latest
         ports:
         - containerPort: 8080
         env:
